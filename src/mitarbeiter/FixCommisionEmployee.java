@@ -10,9 +10,9 @@ public class FixCommisionEmployee extends Employee{
 	}
 	
 	@Override
-	public double getFullSalary() {
-	
-		return baseSalary+additionalCommision;
+	public double getFullSalary() 
+	{
+		return baseSalary+additionalCommision; // addiert den Commision Wert zum Basisgehalt
 	}
 	
 

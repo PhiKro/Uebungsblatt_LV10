@@ -21,7 +21,7 @@ public class Nature {
 		for (Animal animal : Tiere) {
 			if (animal.colour.equals(colour))
 			{
-				count++;
+				count++; // Erhöht den Zähler für jedes gefundene Tier mit der passenden Farbe um 1.
 			}
 		}
 		return count;

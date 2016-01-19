@@ -16,7 +16,7 @@ public class Demo {
 	quaxirecast.makeNoise();
 	quaxirecast.walk();
 		
-	Lion Simba = new Lion("goldish brown",2);
+	Lion Simba = new Lion("brownish gold",2);
 	Cat Dutchess = new Cat("Duchess", "White", 2);
 	Dog Lady = new Dog("brown", 2, "Lady");
 	
@@ -29,6 +29,6 @@ public class Demo {
 	here.addAnimal(quaxi);
 	
 	System.out.println("There are/is "+here.countColour("green")+" green animals in the defined nature.");
-	System.out.println("There are/is "+here.countColour("goldish brown")+" blue animals in the defined nature.");
+	System.out.println("There are/is "+here.countColour("brownish gold")+" blue animals in the defined nature.");
 	}
 }
