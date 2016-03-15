@@ -1,9 +1,13 @@
 package tiere;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements Fly{
 
 	public String name;
 		
+	public String getName() {
+		return name;
+	}
+
 	public Dog(String colour, int countEyes, String name) {
 		super(colour, countEyes);
 		this.name = name;
@@ -21,6 +25,10 @@ public class Dog extends Animal{
 		System.out.println("barking");
 	}
 	
+	@Override
+	public void fly() {
+	System.out.println(getName() + " Flaps ears verry fast.");
+	}
 	
 	
 }

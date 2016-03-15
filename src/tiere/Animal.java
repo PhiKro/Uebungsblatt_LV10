@@ -1,6 +1,6 @@
 package tiere;
 
-public class Animal {
+public abstract class Animal {
 
 	public String colour;
 	public int countEyes;
@@ -11,13 +11,8 @@ public class Animal {
 		this.countEyes = countEyes;
 	}
 	
-	public void walk()
-	{
-		System.out.println("Default: walking");
-	}
+	public abstract void walk();
 	
-	public void makeNoise()
-	{
-		System.out.println();
-	}
+	public abstract void makeNoise();
+
 }

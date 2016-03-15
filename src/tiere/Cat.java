@@ -15,10 +15,12 @@ public class Cat extends Animal {
 	{
 		System.out.println("sneaking");
 	}
-	
+
 	@Override
 	public void makeNoise()
 	{
 		System.out.println("Nyan");
 	}
+	
+	
 }
